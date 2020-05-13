@@ -320,6 +320,10 @@ TARGET_LD_SHIM_LIBS := \
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
+# Treble
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+PRODUCT_FULL_TREBLE_OVERRIDE           := true
+
 # WiFi
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_HOSTAPD_DRIVER             := NL80211
