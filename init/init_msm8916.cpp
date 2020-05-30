@@ -36,7 +36,6 @@
 #include <android-base/strings.h>
 #include "property_service.h"
 #include "vendor_init.h"
-#include "init_msm8916.h"
 using android::base::GetProperty;
 using android::base::ReadFileToString;
 using android::base::Trim;
